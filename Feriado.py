@@ -39,7 +39,7 @@ with tab_1:
     )
 
     feriado = consultar_api(ano)[st.number_input(
-        label='**Qual feriado te interessa? Digite o número para ver os detalhes (de 1 a 13)**',
+        label='**Qual feriado te interessa? Digite o número de acordo com a lista para ver os detalhes**',
         min_value=1,
         max_value=len(consultar_api(ano)),
     ) - 1]
